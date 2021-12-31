@@ -12,6 +12,9 @@ function Home({ dataBtns }) {
   return (
     <Container>
       <Main>
+        <Link to="/seeFriends">
+          <Button>See Random Generated Friends</Button>
+        </Link>
         <Head>
           <Title>AB</Title>
           <SubTitle>ALY BAEZ</SubTitle>
@@ -46,7 +49,6 @@ const Main = styled.div`
   width: 800px;
   height: 400px;
   border-radius: 37px;
-  background: #f0f0f0;
   box-shadow: inset 5px 5px 9px #ebebeb, inset -5px -5px 9px #f5f5f5;
   display: flex;
   align-items: center;
@@ -83,7 +85,6 @@ const Button = styled.button`
   margin-left: 18px;
   border: 0.5 solid rgba(0, 0, 0, 0.06);
   border-radius: 20px;
-  background: #f0f0f0;
   box-shadow: inset 5px 5px 9px #ebebeb, inset -5px -5px 9px #f5f5f5;
   cursor: pointer;
   &:hover {

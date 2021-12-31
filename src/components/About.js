@@ -22,14 +22,11 @@ function About() {
               </AboutImg>
               <AboutMe>
                 <AboutContent>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum
+                  Hey! I'm Aly. I am currently a frontend web developer. I
+                  graduated cum laude in 2019 at California State University,
+                  Fullerton in Communications. My background is in the creative
+                  industry, but recently I followed my heart to a career change
+                  into software development. My
                 </AboutContent>
               </AboutMe>
             </AboutContainer>
@@ -37,7 +34,7 @@ function About() {
           <FooterContainer>
             <FooterTitle>Experience</FooterTitle>
             <ExperienceContainer>
-              <h3>Legendary Pictures, Burbank, CA</h3>
+              <h3>Legendary Pictures, </h3> <span>Burbank, CA</span>
               <p>
                 Digital Media Intern Accounted for all production paperwork and
                 contracts, such as talent releases, deal memos and casting
@@ -48,7 +45,7 @@ function About() {
               </p>
             </ExperienceContainer>
             <ExperienceContainer>
-              <h3>Conan Burbank, CA</h3>
+              <h3>Conan,</h3> <span>Burbank, CA</span>
               <p>
                 Train, inform and oversee incoming interns of all daily duties
                 and important everyday tasks with studio operations Responsible
@@ -59,7 +56,7 @@ function About() {
               </p>
             </ExperienceContainer>
             <ExperienceContainer>
-              <h3> Titan Television Fullerton, CA</h3>
+              <h3> Titan Television,</h3> <span>Fullerton, CA</span>
               <p>
                 Created behind-the-scenes stills, controlled teleprompter,
                 floor/technical direct, run audio and edit on software
@@ -77,7 +74,6 @@ function About() {
 }
 
 const Container = styled.div`
-  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -122,6 +118,7 @@ const AboutContainer = styled.div`
 
 const AboutImg = styled.div`
   img {
+    margin-bottom: 50px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -136,9 +133,9 @@ const AboutMe = styled.div`
 
 const AboutContent = styled.div`
   width: 100%;
-  height: 290px;
+  height: 240px;
   border-radius: 4px;
-
+  margin-top: 40px;
   padding: 8px;
 `;
 

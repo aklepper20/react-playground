@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import References from "./components/References";
-
+import SeeFriends from "./components/SeeFriends";
 function App() {
   return (
     <Container>
@@ -14,6 +14,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/references" element={<References />} />
+        <Route path="/seeFriends" element={<SeeFriends />} />
       </Routes>
     </Container>
   );
@@ -28,7 +29,6 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
 `;
 
 export default App;
